@@ -18,10 +18,10 @@
   "relations": {},
   "acls": [
     {
-      "principalType":"ROLE",
-      "principalId":"$everyone",
-      "permission":"ALLOW",
-      "property":"sayHi"
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "sayHi"
     }
   ],
   "methods": {}
