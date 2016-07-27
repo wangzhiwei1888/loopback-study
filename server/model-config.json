@@ -32,5 +32,8 @@
   "jkUser": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Email":{
+    "dataSource":"email"
   }
 }

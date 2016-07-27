@@ -21,4 +21,18 @@ module.exports = function(JkUser) {
 		}
 
 	)
+
+	JkUser.afterRemote(
+		'create',
+		function(ctx,user,next){
+			ctx.result.verify({
+				type:'email',
+				from:'443883626@qq.com',
+				to:'443883626@qq.com',
+				redirect:'/'
+			},next);
+		}
+	);
+	
+
 };

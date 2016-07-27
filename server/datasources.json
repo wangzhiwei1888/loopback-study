@@ -11,5 +11,19 @@
     "name": "mongodb",
     "user": "",
     "connector": "mongodb"
+  },
+  "email":{
+    "name":"email",
+    "connector":"mail",
+    "transports":[{
+      "type":"smtp",
+      "host":"smtp.qq.com",
+      "port":25,
+      "secure":false,
+      "auth":{
+        "user":"443883626@qq.com",
+        "pass":""
+      }
+    }]
   }
 }
